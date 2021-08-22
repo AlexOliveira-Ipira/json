@@ -4,7 +4,7 @@ from flask import Flask , request, jsonify
 
 app = Flask(__name__)
 
-chave = 'numeor da chave do site'
+chave = 'Valor absorvido no site HGBrasil, tendo de ser substituida os campos "{chave}" de todas as URLS abaixo'
 
 
 @app.route('/getdolar', methods = ['GET'])

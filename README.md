@@ -6,3 +6,5 @@ e substituri o campo {chave} nas URL dentro do arquivo apiDolar.py
 
 Usado para estudo não tem objetivo de passar informações financeiras.
 
+Para os teste esta sendo usado o insonia
+

@@ -6,7 +6,7 @@ from flask_marshmallow import Marshmallow
 
 app = Flask(__name__)
 app.secret_key = 'docker'
-app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///base.sqlite"
+app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///db.sqlite3"
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False 
 
 db = SQLAlchemy(app)
